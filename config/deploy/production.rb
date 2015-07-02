@@ -63,7 +63,7 @@ ec2_role :app,
   user: 'ubuntu',
   ssh_options: {
     keys: %w(/Users/mengqing/.ssh/aws/home.pem),
-    forward_agent: true,
+    forward_agent: false,
     auth_methods: %w(publickey password)
   }
 

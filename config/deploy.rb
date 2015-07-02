@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :application, 'rails-demo'
-set :repo_url, 'git@example.com:me/my_repo.git'
+set :repo_url, "git@github.com:mengqing/rails-demo.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
